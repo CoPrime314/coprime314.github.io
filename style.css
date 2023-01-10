@@ -94,6 +94,11 @@ section{
   height: 100%;
   position: absolute;
   background-image: url('images/icons/loading.gif');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
   top: 0;
   left: 0;
   background-color: #242f3f;
