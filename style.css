@@ -34,8 +34,8 @@ body {
 /* Flex box nonsense */
 .main_container {
   display: flex;
-
 }
+
 .box{
   width: 80px;
   margin: 10px;
