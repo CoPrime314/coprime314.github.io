@@ -39,17 +39,29 @@ body {
 .box{
   width: 80px;
   margin: 10px;
-  border: 3px solid rgb(125, 9, 9);
-  background-color: rgb(0, 0, 0);
+  /*border: 3px solid rgb(125, 9, 9);
+  background-color: rgb(0, 0, 0);*/
 }
 .container1{
   min-height:80px
 }
+.button1{
+  width: 80px;
+  height: 80px;
+}
 .container2{
   min-height:80px
 }
+.button2{
+  width: 80px;
+  height: 80px;
+}
 .container3{
   min-height:80px
+}
+.button3{
+  width: 80px;
+  height: 80px;
 }
 .container4{
   min-height:80px
