@@ -18,7 +18,7 @@ bodymouse.addEventListener('mousemove', handleMouseMove);
 
 console.log("test");
 let appear_once =0;
-var snowstorm = document.getElementById("snowstorm")
+var snowstorm = document.getElementById("snowstorm");
 snowstorm.loop=true;
 
 var body = document.getElementsByTagName("body")[0];
