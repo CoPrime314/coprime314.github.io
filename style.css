@@ -34,8 +34,8 @@ body {
 /* Flex box nonsense */
 .main_container {
   display: flex;
-}
 
+}
 .box{
   width: 80px;
   margin: 10px;
@@ -86,4 +86,18 @@ section{
   font-style: normal;
   font-family:'Courier New', Courier, monospace;
   color: aliceblue;
+}
+
+
+.loader-wrapper {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-image: url('images/icons/animicon.gif');
+  top: 0;
+  left: 0;
+  background-color: #242f3f;
+  display:flex;
+  justify-content: center;
+  align-items: center;
 }
