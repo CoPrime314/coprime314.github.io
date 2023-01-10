@@ -76,7 +76,7 @@ body {
 /* text and shit */
 
 section{
-  display: absolute;
+  display: grid;
   place-items: center;
   align-content: center;
   min-height: 90vh;
