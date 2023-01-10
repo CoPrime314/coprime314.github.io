@@ -6,7 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Coperime Guy is an animator and programmer. Welcome to Coperime's cabin. Enter at your discretion!">
-      <link rel="icon" href="images/icons/icon.ico"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <link rel="icon" href="images/icons/icon.ico"/>
     <link rel="stylesheet" href="style.css">
     </head>
     <body>
@@ -44,6 +45,16 @@
       <section>
           <p id="huh"></p>  
       </section>
+
+
+      <!-- Loading screen-->
+      <div class="loader-wrapper">
+      </div>
+      <script>
+          $(window).on("load",function(){
+            $(".loader-wrapper").fadeOut("slow");
+          });
+      </script>
 
       <script src="main.js"></script>
     </body>
