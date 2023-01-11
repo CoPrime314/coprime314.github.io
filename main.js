@@ -29,7 +29,7 @@ function changebg(body){
     snowstorm.play();
     setTimeout(() => {  
         document.body.classList.add('bodyimpactin');
-    }, 9400);
+    }, 9350);
     setTimeout(() => {  document.body.classList.add('bodycoprime');
     document.body.classList.remove('bodyimpactin');
     }, 10350);
