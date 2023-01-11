@@ -79,7 +79,7 @@ section{
   display: flex;
   place-items: center;
   align-content: center;
-  min-height: 90vh;
+  min-height: 80vh;
 
   font-weight: normal;
   font-size: 30px;
