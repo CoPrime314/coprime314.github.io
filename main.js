@@ -32,6 +32,6 @@ function changebg(body){
     }, 9350);
     setTimeout(() => {  document.body.classList.add('bodycoprime');
     document.body.classList.remove('bodyimpactin');
-    }, 19000);
+    }, 18300);
 }
 
