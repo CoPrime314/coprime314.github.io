@@ -27,15 +27,20 @@ body {
     min-height:80px
   }
   .button1{
+    display: center;
     width: 80px;
     height: 80px;
     border-radius: 20px;
   }
   .container2{
+    left: 50%;
+    margin:auto;
+    min-width: 30vh;
     min-height:80px
   }
   .button2{
-    width: 160px;
+    align-items: center;
+    width: 200px;
     height: 80px;
     border-radius: 20px;
   }
@@ -52,7 +57,7 @@ body {
     display: grid;
     place-items: center;
     align-content: center;
-    min-height: 80vh;
+    min-height: 100vh;
   
     font-weight: normal;
     font-size: 30px;
