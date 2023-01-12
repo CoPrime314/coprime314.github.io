@@ -31,6 +31,14 @@ body {
     height: 80px;
     border-radius: 20px;
   }
+  .container2{
+    min-height:80px
+  }
+  .button2{
+    width: 160px;
+    height: 80px;
+    border-radius: 20px;
+  }
   
   
   /* text and shit */
