@@ -53,7 +53,7 @@ body {
     align-content: center;
     min-height: 60vh;
     min-width: 100vw;
-  
+    border-color: black;
   }
   
   .loader-wrapper {
