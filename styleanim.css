@@ -75,6 +75,8 @@ body {
     min-width: 100vw;
     border-color: black;
     border-width: 0px;
+    margin: 0;
+    padding: 0;
   }
   
   .loader-wrapper {
