@@ -33,21 +33,24 @@ body {
     border-radius: 20px;
   }
   .container2{
-    left: 50%;
+    top:10px;
+    left: 80%;
     margin:auto;
-    min-width: 30vh;
-    min-height:80px
+    min-width: 20vh;
+    min-height:80px;
   }
   .button2{
     align-items: center;
-    width: 200px;
-    height: 80px;
+    width: 80px;
+    height: 130px;
     border-radius: 20px;
   }
 
 
 
-
+  .block_asset{
+    width:100vw;
+  }
   
   /* text and shit */
   
@@ -55,7 +58,7 @@ body {
     display: grid;
     place-items: center;
     align-content: center;
-    min-height: 100vh;
+    min-height: 85vh;
   
     font-weight: normal;
     font-size: 30px;
@@ -70,6 +73,7 @@ body {
     min-height: 60vh;
     min-width: 100vw;
     border-color: black;
+    border-width: 0px;
   }
   
   .loader-wrapper {
