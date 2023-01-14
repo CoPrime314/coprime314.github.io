@@ -6,13 +6,20 @@ body {
     background-image: url('images/animations.gif');
     background-color: black;
     size: 1vh;
-    min-height: -webkit-fill-available;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
   }
-
+  .body2 {
+    margin: 0;
+    background-image: url('images/animations.gif');
+    size: 1vh;
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: auto;
+  }
     
   /* Flex box nonsense */
   .main_container {
