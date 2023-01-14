@@ -15,7 +15,8 @@ function handleMouseMove(event) {
 if (typeof window.orientation == 'undefined'){
 bodymouse.addEventListener('mousemove', handleMouseMove);
 }else{
-document.body.classList.add('body2');
+  var body = document.getElementsByTagName("body")[0];
+  document.body.classList.add('body2');
 }
 
 
