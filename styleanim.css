@@ -11,7 +11,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
   }
-  .body2 {
+ .body2 {
     margin: 0;
     background-image: url('images/animations.gif');
     size: 1vh;
