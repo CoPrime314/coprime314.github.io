@@ -14,7 +14,12 @@ function handleMouseMove(event) {
 //**
 if (typeof window.orientation == 'undefined'){
 bodymouse.addEventListener('mousemove', handleMouseMove);
+}else{
+  document.body.style.backgroundPosition = "top";
+  document.body.style.backgroundSize = "auto";
 }
+
+
 
 
 
