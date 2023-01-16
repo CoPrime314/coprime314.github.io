@@ -1,3 +1,3 @@
 # Hello!!
 
-The website for this is currently coprime314.github.io
+This is my personal website. The link to this is http://coperimescabin.com
