@@ -8,7 +8,6 @@ function handleMouseMove(event) {
   bodymouse.style.backgroundPosition = `${x * 100}% ${y * 100}%`;
 }
 //end of parallax code
-
 //**
 // for windows specific
 //**
@@ -25,6 +24,10 @@ var body = document.getElementsByTagName("body")[0];
 body.addEventListener("click",changebg);
 
 function changebg(body){
+
+    // EVENTS
+    
+    document.body.removeEventListener("click",changebg);
     console.log("what");
     snowstorm.play();
     setTimeout(() => {  
@@ -33,5 +36,28 @@ function changebg(body){
     setTimeout(() => {  document.body.classList.add('bodycoprime');
     document.body.classList.remove('bodyimpactin');
     }, 10350);
+    setTimeout(() =>{
+      $(".dialogue").append("<p>Welcome traveler...</p>");
+    },12350);
+    setTimeout(() =>{
+      $(".dialogue").empty();
+      $(".dialogue").append("<p>I have been expecting you...</p>");
+    },15350);
+    setTimeout(() =>{
+      $(".dialogue").empty();
+      $(".dialogue").append("<p>You've come to seek shelter.</p>");
+    },18350);
+    setTimeout(() =>{
+      $(".dialogue").empty();
+      $(".dialogue").append("<p>I do hope that you will be staying for a while...</p>");
+    },22350);
+    setTimeout(() =>{
+      $(".dialogue").empty();
+      $(".dialogue").append("<p>Go ahead... Have a look around...</p>");
+    },25350);
+    setTimeout(() =>{
+      $(".dialogue").empty();
+    },28350);
 }
+
 
