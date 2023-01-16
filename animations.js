@@ -9,18 +9,17 @@ function handleMouseMove(event) {
 }
 //end of parallax code
 
+
+
+
+
 //**
 // for windows specific
 //**
 if (typeof window.orientation == 'undefined'){
-bodymouse.addEventListener('mousemove', handleMouseMove);
+  bodymouse.addEventListener('mousemove', handleMouseMove);
 }else{
-  document.body.style.backgroundPosition = "top";
-  document.body.style.backgroundSize = "auto";
+  document.body.classList.add('bodyphone');
 }
-
-
-
-
-
+  
 
