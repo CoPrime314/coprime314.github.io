@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+
 /* Main body + body with demon man */
 
 body {
@@ -76,16 +78,16 @@ body {
 /* text and shit */
 
 section{
-  display: flex;
+  display: grid;
   place-items: center;
   align-content: center;
   min-height: 80vh;
 
   font-weight: normal;
-  font-size: 30px;
+  font-size: 45px;
   font-style: normal;
-  font-family:'Courier New', Courier, monospace;
-  color: aliceblue;
+  font-family: 'Amatic SC', cursive;
+  color: rgb(255, 0, 0);
 }
 
 
