@@ -23,3 +23,14 @@ if (typeof window.orientation == 'undefined'){
 }
   
 
+//sound
+var snowstorm = document.getElementById("snowstorm");
+snowstorm.loop=true;
+
+var body = document.getElementsByTagName("body")[0];
+body.addEventListener("click",changebg);
+
+function changebg(body){ 
+    document.body.removeEventListener("click",changebg);
+    snowstorm.play();
+}
