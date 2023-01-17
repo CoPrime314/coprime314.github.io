@@ -26,6 +26,7 @@ if (typeof window.orientation == 'undefined'){
 //sound
 var snowstorm = document.getElementById("snowstorm");
 snowstorm.loop=true;
+snowstorm.volume=0.2;
 
 var body = document.getElementsByTagName("body")[0];
 body.addEventListener("click",changebg);
