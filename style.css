@@ -1,4 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap');
+
+
 
 /* Main body + body with demon man */
 
@@ -45,34 +48,70 @@ body {
   background-color: rgb(0, 0, 0);*/
 }
 .container1{
-  min-height:80px
+  min-height:80px;
 }
 .button1{
+  background-image: url("images/icons/abouticon.gif");
+  background-size: cover;
   width: 80px;
   height: 80px;
   border-radius: 20px;
+  transition: transform 0.9s;
 }
+.button1:hover{
+  background-image: url("images/icons/abouthovericon.gif");
+  transform: translateY(-7px);
+}
+
+
 .container2{
-  min-height:80px
+  min-height:80px;
 }
 .button2{
+  background-image: url("images/icons/animicon.gif");
+  background-size: cover;
   width: 80px;
   height: 80px;
   border-radius: 20px;
+  transition: transform 0.9s;
+
 }
+.button2:hover{
+  background-image: url("images/icons/animhovericon.gif");
+  transform: translateY(-7px);
+}
+
+
 .container3{
-  min-height:80px
+  min-height:80px;
 }
 .button3{
+  background-image: url("images/icons/illusicon.gif");
+  background-size: cover;
   width: 80px;
   height: 80px;
   border-radius: 20px;
+  transition: transform 0.9s;
 }
+.button3:hover{
+  background-image: url("images/icons/illushovericon.gif");
+  transform: translateY(-7px);
+}
+
 .container4{
-  min-height:80px
+  min-height:80px;
 }
-.container5{
-  min-height:80px
+.button4{
+  background-image: url("images/icons/codeicon.gif");
+  background-size: cover;
+  width: 80px;
+  height: 80px;
+  border-radius: 20px;
+  transition: transform 0.9s;
+}
+.button4:hover{
+  background-image: url("images/icons/codehovericon.gif");
+  transform: translateY(-7px);
 }
 
 /* text and shit */
@@ -82,11 +121,12 @@ section{
   place-items: center;
   align-content: center;
   min-height: 80vh;
-
+  text-align: center;
+  margin-top: 10vh;
   font-weight: normal;
   font-size: 45px;
   font-style: normal;
-  font-family: 'Amatic SC', cursive;
+  font-family: 'Reenie Beanie', cursive;
   color: rgb(255, 0, 0);
 }
 
