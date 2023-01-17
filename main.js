@@ -37,23 +37,23 @@ function changebg(body){
     document.body.classList.remove('bodyimpactin');
     }, 10350);
     setTimeout(() =>{
-      $(".dialogue").append("<p>Welcome traveler...</p>");
+      $(".dialogue").append("<p>GREETINGS TRAVELER...</p>");
     },12350);
     setTimeout(() =>{
       $(".dialogue").empty();
-      $(".dialogue").append("<p>I have been expecting you...</p>");
+      $(".dialogue").append("<p>WELCOME TO MY CABIN...</p>");
     },15350);
     setTimeout(() =>{
       $(".dialogue").empty();
-      $(".dialogue").append("<p>You've come to seek shelter.</p>");
+      $(".dialogue").append("<p>I HAVE BEEN EXPECTING YOU...</p>");
     },18350);
     setTimeout(() =>{
       $(".dialogue").empty();
-      $(".dialogue").append("<p>I do hope that you will be staying for a while...</p>");
+      $(".dialogue").append("<p>I DO HOPE YOU ENJOY YOUR STAY...</p>");
     },22350);
     setTimeout(() =>{
       $(".dialogue").empty();
-      $(".dialogue").append("<p>Go ahead... Have a look around...</p>");
+      $(".dialogue").append("<p>GO AHEAD... HAVE A LOOK AROUND...</p>");
     },25350);
     setTimeout(() =>{
       $(".dialogue").empty();
