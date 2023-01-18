@@ -45,19 +45,15 @@ function changebg(body){
     },15350);
     setTimeout(() =>{
       $(".dialogue").empty();
-      $(".dialogue").append("<p>I HAVE BEEN EXPECTING YOU...</p>");
+      $(".dialogue").append("<p>I HOPE YOU ENJOY YOUR STAY...</p>");
     },18350);
     setTimeout(() =>{
       $(".dialogue").empty();
-      $(".dialogue").append("<p>I DO HOPE YOU ENJOY YOUR STAY...</p>");
-    },22350);
-    setTimeout(() =>{
-      $(".dialogue").empty();
       $(".dialogue").append("<p>GO AHEAD... HAVE A LOOK AROUND...</p>");
-    },25350);
+    },21350);
     setTimeout(() =>{
       $(".dialogue").empty();
-    },28350);
+    },24350);
 }
 
 
