@@ -11,8 +11,12 @@ function handleMouseMove(event) {
 //**
 // for windows specific
 //**
+var ismobile = 1;
 if (typeof window.orientation == 'undefined'){
 bodymouse.addEventListener('mousemove', handleMouseMove);
+ismobile = 0;
+}else{
+  document.body.classList.add('bodyphone');
 }
 
 console.log("test");
@@ -31,10 +35,20 @@ function changebg(body){
     console.log("what");
     snowstorm.play();
     setTimeout(() => {  
-        document.body.classList.add('bodyimpactin');
+        if (ismobile){
+          document.body.classList.add('bodyimpactinphone');
+        }else{
+          document.body.classList.add('bodyimpactin');
+        }
     }, 9350);
-    setTimeout(() => {  document.body.classList.add('bodycoprime');
-    document.body.classList.remove('bodyimpactin');
+    setTimeout(() => {  
+      if (ismobile){
+        document.body.classList.add('bodycoprimephone');
+        document.body.classList.remove('bodyimpactinphone');
+      }else{
+        document.body.classList.add('bodycoprime');
+        document.body.classList.remove('bodyimpactin');
+      }
     }, 10350);
     setTimeout(() =>{
       $(".dialogue").append("<p>GREETINGS TRAVELER...</p>");
